@@ -1,0 +1,17 @@
+{
+  "name": "mocha-test",
+  "version": "0.0.1",
+  "description": "mocha test example",
+  "main": "",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test --reporter mocha-junit-reporter --reporter-options mochaFile=report/test-results.xml"
+  },
+  "author": "iklymchuk",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "request": "^2.81.0"
+  }
+}
